@@ -1,0 +1,55 @@
+
+SSM的基本知识点
+### Spring
+
+Spring框架是一个容器，它的主要作用是创建和管理对象。
+
+Spring框架实现了解耦。
+
+Spring框架通过DI实现了IoC。
+
+关于Spring框架，必须掌握和理解的：
+
+1. Spring的基本概念与特性；
+
+2. 常用的注解：通用的4个注解，自动装配的注解；
+
+3. 关于`@Autowired`和`@Resource`的区别；
+
+4. Spring表达式，建议课余找时间学习ONGL。
+
+### SpringMVC
+
+SpringMVC主要解决接收请求与处理响应的问题。
+
+关于SpringMVC框架，必须掌握和理解的：
+
+1. 创建SpringMVC项目，并完成配置；
+
+2. 掌握常用注解：`@RequestMapping`、`@ResponseBody`、`@RequestParam`、`@RestController`、`@GetMapping`、`@PostMapping`、`@ExceptionHandler`；
+
+3. 掌握转发与重定向，及转发时封装转发的数据；
+
+4. 掌握响应JSON正文的方式；
+
+5. 掌握拦截器的使用；
+
+6. 掌握异常的处理。
+
+### MyBatis
+
+MyBatis解决了传统模式下持久层开发比较繁琐的问题。
+
+关于MyBatis框架，必须掌握和理解的：
+
+1. 基本的增删改查功能开发；
+
+2. 查询时，什么时候需要自定义别名；
+
+3. 什么时候需要使用VO类；
+
+4. 掌握`<resultMap>`的使用；
+
+5. 掌握动态SQL中的`<foreach>`的使用；
+
+6. 理解`#{}`和`${}`的区别。
